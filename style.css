@@ -8,6 +8,16 @@
 body {
     font-family: Arial, Helvetica, sans-serif;
    
+   
+}
+
+h3 {
+    margin: 18px;    
+    
+}
+
+h3 span {
+    color: rgb(179, 116, 87);
 }
 
 header {
@@ -27,5 +37,106 @@ nav {
 }
 
 nav a {
-  justify-content: flex-end;
+  margin: 0 10px;
+  text-decoration: none;
+  color: black;
+  font-weight: bold;
+  text-decoration: underline;
+  cursor: pointer;
+}
+
+.Hero {
+    margin-top: 50px;
+    padding: 20px;
+}
+
+.Hero p {
+    color: gray;
+    margin: 8px;
+}
+
+h1 { 
+    font-size: 40px;
+
+}
+
+button {
+    background-color: black;
+    color: white;
+    padding: 5px 5px;
+    border: none;
+    cursor: pointer;
+    border-radius: 8px;
+    position: absolute;
+    right: 365px;
+    top: 150px;
+    
+}
+
+.image-box {
+    position: relative;
+    margin: auto;
+    max-width: 600px;
+    
+}
+.image-box img {
+    width: 100%;
+    border-radius: 10px;
+
+    
+    
+}
+
+.image-text {
+    bottom: 90px;
+    width: 40%;
+    left: 400px;
+    background-color: rgb(80, 75, 75);
+    color: white;
+    padding: 15px;
+    font-size: 14px;
+    position: absolute;
+    border-radius: 10px;
+    
+    
+}
+.Container {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    margin-top: 20px;
+
+}
+
+.box {
+    margin: 6px;
+    padding: 5px;
+    border: 2px solid black;
+    width: 13%;
+    border-radius: 15px;
+    font-size: 17px;
+    background-color:rgb(236, 224, 224) ;
+    font-weight: bold;
+    
+    
+
+}
+
+.box span {
+    color: rgb(172, 131, 112);
+}
+
+.Black-box {
+    padding: 10px;
+    border: 1px solid black;
+    width: 13%;
+    border-radius: 15px;
+    font-size: 17px;
+    background-color: rgb(0, 0, 0);
+    background-color: black;
+    color: white;
+
+
+
+    
 }
